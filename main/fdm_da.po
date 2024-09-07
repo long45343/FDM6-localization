@@ -145,7 +145,16 @@ msgid "Interface"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
+msgid ""
+"Click on the Close button to hide %1 and keep it running in the background"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
 msgstr ""
 
 msgctxt "AdvancedSettings|"
@@ -599,6 +608,10 @@ msgid "General"
 msgstr "Generel"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr ""
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Udvikling"
 
@@ -728,6 +741,10 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr ""
 
+msgctxt "BrowserIntegrationSettings|"
+msgid "Don't intercept if INSERT key is pressed"
+msgstr ""
+
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -746,6 +763,22 @@ msgstr ""
 
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
 msgstr ""
 
 msgctxt "BtSettings|"
@@ -1737,6 +1770,10 @@ msgstr "Sekventiel download"
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Fjern fra liste"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Restart"
+msgstr "Genstart"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -3172,6 +3209,10 @@ msgid "Info"
 msgstr ""
 
 msgctxt "Page|"
+msgid "Details"
+msgstr ""
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "Filer"
 
@@ -3933,6 +3974,14 @@ msgid "Unwanted behavior detected"
 msgstr ""
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr ""
 
@@ -4107,6 +4156,10 @@ msgstr ""
 
 msgctxt "QObject|"
 msgid "Open folder"
+msgstr ""
+
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
 msgstr ""
 
 msgctxt "QuaGzipFile|"
@@ -4562,7 +4615,15 @@ msgid "Warning: potential security risk ahead"
 msgstr ""
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr ""
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
 msgstr ""
 
 msgctxt "SslDialog|"
@@ -4575,6 +4636,16 @@ msgstr ""
 
 msgctxt "SslDialog|"
 msgid "SHA1:"
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Accept"
 msgstr ""
 
 msgctxt "SslDialog|"
@@ -4763,6 +4834,10 @@ msgstr "Maksimum antal i simultan downloader"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of additional querying info downloads:"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Enable additional downloads to optimize speed"
 msgstr ""
 
 msgctxt "TrafficLimitsSettings|"

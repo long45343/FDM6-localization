@@ -1,11 +1,5 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: \n"
-"PO-Revision-Date: \n"
-"Last-Translator: Fúlvio Alves <fga.fulvio@gmail.com>\n"
-"Language-Team: \n"
-"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -13,7 +7,6 @@ msgstr ""
 "X-Language: pt_BR\n"
 "X-Source-Language: en\n"
 "X-Qt-Contexts: true\n"
-"X-Generator: Poedit 3.4.2\n"
 
 msgctxt "AboutDialog|"
 msgid "About"
@@ -105,7 +98,7 @@ msgstr "Notificações"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of added downloads via Notification Center"
-msgstr "Notificar-me sobre downloads adicionados via Central de Notificações"
+msgstr "Notificar-me sobre downloads adicionados pela Central de Notificações"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
@@ -153,8 +146,19 @@ msgid "Interface"
 msgstr "Interface"
 
 msgctxt "AdvancedSettings|"
+msgid ""
+"Click on the Close button to hide %1 and keep it running in the background"
+msgstr ""
+"Clique no botão Fechar para ocultar o %1 e mantê-lo em execução em segundo "
+"plano"
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Abrir/ocultar o painel inferior ao clicar no download"
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -614,6 +618,10 @@ msgid "General"
 msgstr "Geral"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr "Detalhes"
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Progresso"
 
@@ -745,6 +753,10 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "Usar navegador se cancelar o download através do %1"
 
+msgctxt "BrowserIntegrationSettings|"
+msgid "Don't intercept if INSERT key is pressed"
+msgstr "Não interceptar se a tecla INSERT for pressionada"
+
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -772,6 +784,22 @@ msgstr "Continuar"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(navegador não instalado)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr "(conectado: %1)"
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "Estado"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "Atualizando..."
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -833,8 +861,8 @@ msgid ""
 msgstr ""
 "O uso de rastreadores adicionais pode melhorar a velocidade de download em "
 "alguns casos. Listas destes rastreadores podem ser obtidas em diferentes "
-"fontes; por exemplo, <a href='https://github.com/ngosang/trackerslist'>aqui</"
-"a>."
+"fontes; por exemplo, <a "
+"href='https://github.com/ngosang/trackerslist'>aqui</a>."
 
 msgctxt "BtStrings|"
 msgid "Uploaded"
@@ -1778,6 +1806,10 @@ msgstr "Download sequencial"
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Remover da lista"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Restart"
+msgstr "Reiniciar"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -3221,6 +3253,10 @@ msgid "Info"
 msgstr "Informação"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr "Detalhes"
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "Arquivos"
 
@@ -3993,6 +4029,14 @@ msgid "Unwanted behavior detected"
 msgstr "Comportamento indesejado detectado"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "URL não suportado"
 
@@ -4172,6 +4216,10 @@ msgstr "Lista de reprodução"
 msgctxt "QObject|"
 msgid "Open folder"
 msgstr "Abrir pasta"
+
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr "%1 retornou status de saída diferente de zero (%2)"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4628,8 +4676,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "Aviso: risco potencial de segurança à frente"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr ""
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "O certificado SSL não é válido."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4642,6 +4698,16 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -4830,6 +4896,10 @@ msgstr "Número máximo de downloads simultâneos"
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of additional querying info downloads:"
 msgstr "Número máximo de downloads de informações de consulta adicionais:"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Enable additional downloads to optimize speed"
+msgstr "Habilitar downloads adicionais para otimizar a velocidade"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"

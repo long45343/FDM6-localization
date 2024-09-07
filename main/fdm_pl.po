@@ -145,8 +145,18 @@ msgid "Interface"
 msgstr "Interfejs"
 
 msgctxt "AdvancedSettings|"
+msgid ""
+"Click on the Close button to hide %1 and keep it running in the background"
+msgstr ""
+"Użycie przycisku \"Zamknij\" ukrywa %1 i pozostawia program uruchomiony w tle"
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Pokaż/ukryj panel dolny po kliknięciu na pobieranym pliku"
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -604,6 +614,10 @@ msgid "General"
 msgstr "Ogólne"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr "Szczegóły"
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Postęp"
 
@@ -735,6 +749,10 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "Gdy anulujesz pobieranie pliku w %1, użyj pobierania w przeglądarce"
 
+msgctxt "BrowserIntegrationSettings|"
+msgid "Don't intercept if INSERT key is pressed"
+msgstr "Nie przechwytuj, jeśli naciśnięto klawisz INSERT"
+
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -762,6 +780,22 @@ msgstr "Kontynuuj"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(przeglądarka nie jest zainstalowana)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr "Brak"
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr "(podłączonych: %1)"
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "Status"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "Aktualizacja..."
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -1692,7 +1726,7 @@ msgstr "Usuń z listy"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Odtwórz film jeszcze podczas jego pobierania"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -1769,6 +1803,10 @@ msgstr "Pobieranie sekwencyjne"
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Usuń z listy"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Restart"
+msgstr "Uruchom ponownie"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -2780,15 +2818,15 @@ msgstr "Musi to być liczba większa niż 0."
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
-msgstr ""
+msgstr "Gotowy do odtworzenia"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
-msgstr ""
+msgstr "%1 jeset gotowy do odtworzenia"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Play"
-msgstr ""
+msgstr "Odtwórz"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Cancel"
@@ -3170,11 +3208,11 @@ msgstr ""
 
 msgctxt "Notification|"
 msgid "Miscellaneous notifications"
-msgstr ""
+msgstr "Różne powiadomienia"
 
 msgctxt "Notification|"
 msgid "Ready to play"
-msgstr ""
+msgstr "Gotowy do odtworzenia"
 
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
@@ -3213,6 +3251,10 @@ msgid "Info"
 msgstr "Info"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr "Szczegóły"
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "Pliki"
 
@@ -3222,7 +3264,7 @@ msgstr "Połączenia"
 
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Odtwórz film jeszcze podczas jego pobierania"
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
@@ -3984,6 +4026,14 @@ msgid "Unwanted behavior detected"
 msgstr "Wykryto niepożądane zachowanie"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr "Nieznany klucz serwera"
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr "Klucz publiczny serwera jest nieznany"
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "Nieobsługiwany adres pobierania"
 
@@ -4163,6 +4213,10 @@ msgstr "Lista odtwarzania"
 msgctxt "QObject|"
 msgid "Open folder"
 msgstr "Otwórz folder"
+
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr "%1 zwrócił kod wyjścia nie równy zeru (%2)"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4617,8 +4671,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "Uwaga: wykryto potencjalne zagrożenie bezpieczeństwa"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr "Nie można potwierdzić autoryzacji serwera."
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "Niepoprawny certyfikat SSL."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr "%1 odcisk klucza"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4631,6 +4693,18 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+"Jeżeli ufasz temu serwerowi, wybierz Akceptuj, aby zapamiętać klucz i "
+"kontynuować łączenie."
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr "Akceptuj"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -4821,6 +4895,10 @@ msgid "Maximum number of additional querying info downloads:"
 msgstr "Maksymalna liczba dodatkowych zapytań o pobraniach:"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Enable additional downloads to optimize speed"
+msgstr "Włącz dodatkowe pobieranie, aby zoptymalizować prędkość"
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "Niepoprawne ustawienia limitów prędkości"
 
@@ -4954,7 +5032,7 @@ msgstr "Nazwa pliku"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Odtwórz film jeszcze podczas jego pobierania"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"

@@ -26,7 +26,7 @@ msgstr "© %1, %2-%3"
 
 msgctxt "AboutDialog|"
 msgid "remote control"
-msgstr "Controllo remoto"
+msgstr "controllo remoto"
 
 msgctxt "AboutDialog|"
 msgid "version %1"
@@ -90,7 +90,7 @@ msgstr "Aggiungi etichetta"
 
 msgctxt "AdvancedSettings|"
 msgid "Advanced"
-msgstr "Avanzate"
+msgstr "Opzioni avanzate"
 
 msgctxt "AdvancedSettings|"
 msgid "Notifications"
@@ -98,23 +98,23 @@ msgstr "Notifiche"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of added downloads via Notification Center"
-msgstr "Avvisami dei download aggiunti tramite il Centro notifiche"
+msgstr "Notifica download aggiunti tramite il Centro notifiche"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of completed downloads via Notification Center"
-msgstr "Avvisami dei download completati tramite il Centro notifiche"
+msgstr "Notifica download completati tramite il Centro notifiche"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of failed downloads via Notification Center"
-msgstr "Avvisami in caso di download non riusciti tramite il Centro notifiche"
+msgstr "Notifica download non riusciti tramite il Centro notifiche"
 
 msgctxt "AdvancedSettings|"
 msgid "Notify me of downloads only when %1 window is inactive"
-msgstr "Avvisami dei download solo quando la finestra di %1 è inattiva"
+msgstr "Notifica download solo quando la finestra di %1 è inattiva"
 
 msgctxt "AdvancedSettings|"
 msgid "Customize sounds"
-msgstr "Personalizza suoni"
+msgstr "Personalizza file audio eventi"
 
 msgctxt "AdvancedSettings|"
 msgid "Power management"
@@ -122,11 +122,11 @@ msgstr "Gestione alimentazione"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is a scheduled download"
-msgstr "Evita la modalità di sospensione se è presente un download pianificato"
+msgstr "Disabilita modalità sospensione se è presente un download pianificato"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode while sharing files"
-msgstr "Consenti la modalità di sospensione durante la condivisione di file"
+msgstr "Consenti modalità sospensione durante la condivisione di file"
 
 msgctxt "AdvancedSettings|"
 msgid "Options"
@@ -134,7 +134,7 @@ msgstr "Opzioni"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch at startup (minimized)"
-msgstr "Esegui all'avvio (ridotto a icona)"
+msgstr "Esegui FDM (ridotto a icona) all'avvio del sistema"
 
 msgctxt "AdvancedSettings|"
 msgid "Show special offers"
@@ -145,13 +145,22 @@ msgid "Interface"
 msgstr "Interfaccia"
 
 msgctxt "AdvancedSettings|"
+msgid ""
+"Click on the Close button to hide %1 and keep it running in the background"
+msgstr ""
+"Seleziona 'Chiudi' per nascondere %1 e mantenerlo in esecuzione in background"
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
-msgstr "Visualizza/nascondi il pannello inferiore facendo clic sul download"
+msgstr "Visualizza/nascondi pannello inferiore facendo clic sul download"
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr "Nascondi icona dock"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
-msgstr ""
-"Visualizza icona di download e upload attivo sulla barra delle applicazioni"
+msgstr "Visualizza icona download/upload attivi nella barra applicazioni"
 
 msgctxt "AdvancedSettings|"
 msgid "Show built-in tags:"
@@ -163,7 +172,7 @@ msgstr "Operazioni automatizzate"
 
 msgctxt "AdvancedSettings|"
 msgid "Launch external application on download completion"
-msgstr "Avvia applicazione esterna al termine del download"
+msgstr "Avvia applicazione esterna al completamento del download"
 
 msgctxt "AdvancedSettings|"
 msgid "Path:"
@@ -199,17 +208,17 @@ msgstr "Vuoi ripristinare le impostazioni predefinite?"
 
 msgctxt "AdvancedSettings|"
 msgid "Backup the list of downloads every"
-msgstr "Esegui il backup dell'elenco download ogni"
+msgstr "Esegui backup elenco download ogni"
 
 msgctxt "AdvancedSettings|"
 msgid "Avoid sleep mode if there is an active download"
-msgstr "Evita la modalità di sospensione se è presente un download attivo "
+msgstr "Disabilita modalità sospensione se è presente un download attivo"
 
 msgctxt "AdvancedSettings|"
 msgid "Allow sleep mode if downloads can be resumed later"
 msgstr ""
-"Consenti la modalità di sospensione se i download possono essere ripresi in "
-"un secondo momento"
+"Consenti modalità sospensione se i download possono essere ripresi in un "
+"secondo momento"
 
 msgctxt "AdvancedSettings|"
 msgid "File exists reaction"
@@ -217,15 +226,15 @@ msgstr "Azione se il file esiste già"
 
 msgctxt "AdvancedSettings|"
 msgid "Rename"
-msgstr "Rinomina"
+msgstr "Rinomina file"
 
 msgctxt "AdvancedSettings|"
 msgid "Overwrite"
-msgstr "Sovrascrivi"
+msgstr "Sovrascrivi file"
 
 msgctxt "AdvancedSettings|"
 msgid "Use sounds"
-msgstr "Usa suoni"
+msgstr "Imposta file audio notifiche"
 
 msgctxt "AdvancedSettings|"
 msgid "Do not allow downloads if battery level drops below"
@@ -238,11 +247,11 @@ msgstr "Non condividere file quando si utilizza la batteria"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable user defined order of downloads"
-msgstr "Abilita l'ordine dei download definito dall'utente"
+msgstr "Abilita ordine download definito dall'utente"
 
 msgctxt "AdvancedSettings|"
 msgid "Show \"Save As...\" button"
-msgstr "Visualizza pulsante \"Salva come...\""
+msgstr "Visualizza pulsante 'Salva come...'"
 
 msgctxt "AdvancedSettings|"
 msgid "Enable standalone create new downloads windows"
@@ -258,11 +267,11 @@ msgstr "Zoom caratteri"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete button action"
-msgstr "Azione del pulsante Elimina"
+msgstr "Azione pulsante 'Elimina'"
 
 msgctxt "AdvancedSettings|"
 msgid "Remove only from download list"
-msgstr "Rimuovi solo dall'elenco dei download"
+msgstr "Rimuovi solo dall'elenco download"
 
 msgctxt "AdvancedSettings|"
 msgid "Delete files"
@@ -294,7 +303,7 @@ msgstr "Antivirus"
 
 msgctxt "AntivirusSettings|"
 msgid "Select antivirus:"
-msgstr "Seleziona antivirus:"
+msgstr "Programma antivirus:"
 
 msgctxt "AntivirusSettings|"
 msgid "Is your antivirus not listed?"
@@ -528,11 +537,11 @@ msgstr "1 giorno"
 
 msgctxt "BaseBaseErrorLabel|"
 msgid "Server has returned a web page."
-msgstr "Il server ha restituito una pagina Web."
+msgstr "Il server ha restituito una pagina web."
 
 msgctxt "BaseBaseErrorLabel|"
 msgid "Click to open it in the web browser."
-msgstr "Fai clic per aprirlo nel browser Web."
+msgstr "Fai clic per aprirla nel browser web."
 
 msgctxt "BaseStringListArea|"
 msgid "Please enter one item per line"
@@ -607,6 +616,10 @@ msgid "General"
 msgstr "Generale"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr "Dettagli"
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Progresso"
 
@@ -660,7 +673,7 @@ msgstr "Segnalibri"
 
 msgctxt "Browser MainMenu|"
 msgid "Download media"
-msgstr "Scarica contenuto multimediale"
+msgstr "Download contenuto multimediale"
 
 msgctxt "Browser MainMenu|"
 msgid "Remove bookmark"
@@ -672,7 +685,7 @@ msgstr "Aggiungi ai segnalibri"
 
 msgctxt "BrowserButton|"
 msgid "Download %1 extension"
-msgstr "Scarica estensione per %1"
+msgstr "Download estensione per %1"
 
 msgctxt "BrowserButton|"
 msgid "%1 is not installed"
@@ -687,8 +700,8 @@ msgid ""
 "Make sure you have %1 extension installed, otherwise, click one of the "
 "buttons below"
 msgstr ""
-"Assicurati che l'estensione %1 sia installata, altrimenti fai clic su uno "
-"dei seguenti pulsanti"
+"Assicurati che l'estensione %1 sia installata, o seleziona uno dei seguenti "
+"pulsanti"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Other supported browsers"
@@ -696,11 +709,11 @@ msgstr "Altri browser supportati"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Automatically catch downloads from browsers"
-msgstr "Cattura automaticamente download dai browser"
+msgstr "Cattura automaticamente download nel browser"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Intercept downloads in your web browser"
-msgstr "Intercetta download nel browser Web"
+msgstr "Intercetta download nel browser web"
 
 msgctxt "BrowserIntegrationSettings|"
 msgid "Start downloading without confirmation"
@@ -738,6 +751,10 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "Usa il browser se annulli il download con %1"
 
+msgctxt "BrowserIntegrationSettings|"
+msgid "Don't intercept if INSERT key is pressed"
+msgstr "Non intercettare download se viene premuto il tasto 'INS'"
+
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -765,6 +782,22 @@ msgstr "Continua"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(browser non installato)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr "N/D"
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr "(connesso: %1)"
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "Stato"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "Aggiornamento..."
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -843,7 +876,7 @@ msgstr "Aggiungi download"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Report problem"
-msgstr "Segnala un problema"
+msgstr "Segnala problema"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Cancel"
@@ -851,7 +884,7 @@ msgstr "Annulla"
 
 msgctxt "BuildDownloadDialog|"
 msgid "Download"
-msgstr "Scarica"
+msgstr "Download"
 
 msgctxt "BuildDownloadDialog|"
 msgid "OK"
@@ -871,7 +904,7 @@ msgstr "OK"
 
 msgctxt "BuildDownloadPage|"
 msgid "Report problem"
-msgstr "Segnala un problema"
+msgstr "Segnala problema"
 
 msgctxt "BuildDownloadPage|"
 msgid "Downloading from this site is not allowed"
@@ -923,7 +956,7 @@ msgstr "Annulla"
 
 msgctxt "ButtonsBlock|"
 msgid "Download"
-msgstr "Scarica"
+msgstr "Download"
 
 msgctxt "ChangeUrlDialog|"
 msgid "Change download URL"
@@ -982,7 +1015,7 @@ msgid ""
 "The following folder contains extraneous files. Do you still want to delete "
 "it?"
 msgstr ""
-"La cartella seguentea contiene file estranei. \n"
+"La cartella seguentea contiene file estranei.\n"
 "Vuoi comunque eliminarla?"
 
 msgctxt "ConfirmDeleteExtraneousFilesDialog|"
@@ -1118,7 +1151,7 @@ msgctxt "CrashReporter|"
 msgid ""
 "An internal error occurred.<br>%1 needs to be restarted for further use."
 msgstr ""
-"Si è verificato un errore interno. \n"
+"Si è verificato un errore interno.\n"
 "Per continuare è necessario riavviare <br>%1."
 
 msgctxt "CrashReporter|"
@@ -1167,7 +1200,7 @@ msgid ""
 "Specify here the path where you would like to create this version. It should "
 "be a folder on some removable drive."
 msgstr ""
-"Specifica qui il percorso in cui vuoi creare questa versione. \n"
+"Specifica qui il percorso in cui vuoi creare questa versione.\n"
 "Dovrebbe essere una cartella in qualche dispositivo rimovibile."
 
 msgctxt "CreatePortableDialog|"
@@ -1205,7 +1238,7 @@ msgstr "Chiudi"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Customize sounds"
-msgstr "Personalizza suoni"
+msgstr "Imposta file audio eventi"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Event"
@@ -1217,7 +1250,7 @@ msgstr "File audio"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "No sound"
-msgstr "Nessun suono"
+msgstr "Nessun file audio impostato"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Downloads added"
@@ -1237,7 +1270,7 @@ msgstr "Nessun download attivo"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Set sound"
-msgstr "Imposta suoni"
+msgstr "Imposta"
 
 msgctxt "CustomizeSoundsDialog|"
 msgid "Remove"
@@ -1321,7 +1354,7 @@ msgstr "Termina"
 
 msgctxt "DiskSpace|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr "Dimensione: %1 (spazio disponibile: %2)"
+msgstr "Dimensione file: %1 (spazio disponibile disco: %2)"
 
 msgctxt "DiskSpace|"
 msgid "Disk space: %1"
@@ -1343,8 +1376,8 @@ msgctxt "DownloadExpiredDialog|"
 msgid ""
 "Can't resume download. Download link likely expired. Resume attempts failed."
 msgstr ""
-"Impossibile riprendere il download.  \n"
-"Il collegamento per il download è probabilmente scaduto.  \n"
+"Impossibile riprendere il download.\n"
+"Il collegamento per il download è probabilmente scaduto.\n"
 "Tentativi di ripresa non riusciti."
 
 msgctxt "DownloadExpiredDialog|"
@@ -1361,7 +1394,7 @@ msgstr ""
 
 msgctxt "DownloadExpiredDialog|"
 msgid "click here"
-msgstr "fai clic qui"
+msgstr "seleziona qui"
 
 msgctxt "DownloadExpiredDialog|"
 msgid "Update download"
@@ -1514,7 +1547,7 @@ msgstr "Nessun risultato per"
 
 msgctxt "DownloadsPage|"
 msgid "No results tagged \"%1\" found"
-msgstr "Nessun risultato etichettato con \"%1\" trovato"
+msgstr "Nessun risultato trovato per \"%1\""
 
 msgctxt "DownloadsPage|"
 msgid "No active downloads"
@@ -1531,7 +1564,7 @@ msgstr "Visualizza tutti"
 msgctxt "DownloadsPage|"
 msgid "Download list is empty. Add new download URL."
 msgstr ""
-"L'elenco download è vuoto. \n"
+"L'elenco download è vuoto.\n"
 "Aggiungi nuovo URL download."
 
 msgctxt "DownloadsPage|"
@@ -1548,11 +1581,11 @@ msgstr "Avvia download senza conferma"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "Rimuovi automaticamente dall'elenco dei download i file eliminati"
+msgstr "Rimuovi automaticamente dall'elenco download i file eliminati"
 
 msgctxt "DownloadsSettings|"
 msgid "Automatically remove completed downloads from download list"
-msgstr "Rimuovi automaticamente dall'elenco dei download i download completati"
+msgstr "Rimuovi automaticamente dall'elenco download i download completati"
 
 msgctxt "DownloadsSettings|"
 msgid "Immediately"
@@ -1576,7 +1609,7 @@ msgstr "Non scaricare pagine web"
 
 msgctxt "DownloadsSettings|"
 msgid "Use server time for file creation"
-msgstr "Per la creazione del file usa l'orario del server"
+msgstr "Imposta data/ora del file scaricato uguale a quella del server"
 
 msgctxt "DownloadsSettings|"
 msgid "Default download folder"
@@ -1656,7 +1689,7 @@ msgstr "Apri file"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Report problem"
-msgstr "Segnala un problema"
+msgstr "Segnala problema"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Enable auto retry for this kind of errors"
@@ -1704,7 +1737,7 @@ msgstr "Rimuovi dall'elenco"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Riproduci il file mentre è ancora in fase di download"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -1781,6 +1814,10 @@ msgstr "Download sequenziale"
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Rimuovi dall'elenco"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Restart"
+msgstr "Riavvia"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -1947,11 +1984,11 @@ msgstr "Formato predefinito"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "List of URLs"
-msgstr "Elenco degli URL"
+msgstr "Elenco URL"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "Text files (%1)"
-msgstr "File di testo (%1)"
+msgstr "File testo (%1)"
 
 msgctxt "ExportDownloadsTypeCombobox|"
 msgid "CSV file"
@@ -1971,7 +2008,7 @@ msgstr "Annulla"
 
 msgctxt "ExportSettingsDialog|"
 msgid "%1 settings files (%2)"
-msgstr "%1 file impostazioni (%2)"
+msgstr "Impostazioni %1 (%2)"
 
 msgctxt "ExportSettingsDialog|"
 msgid "All files (%1)"
@@ -2219,11 +2256,11 @@ msgstr "Generale"
 
 msgctxt "GeneralSettings|"
 msgid "Choose theme"
-msgstr "Scegli tema"
+msgstr "Tema programma"
 
 msgctxt "GeneralSettings|"
 msgid "Language"
-msgstr "Lingua"
+msgstr "Lingua interfaccia"
 
 msgctxt "GeneralSettings|"
 msgid "Downloads"
@@ -2259,7 +2296,7 @@ msgstr "Suggerisci cartelle in base all'URL download"
 
 msgctxt "GeneralSettings|"
 msgid "Fixed default download folder"
-msgstr "Cartella predefinita fissa download"
+msgstr "Cartella predefinita download per tutti i file"
 
 msgctxt "GeneralSettings|"
 msgid "Open"
@@ -2275,7 +2312,7 @@ msgstr "Gestisci"
 
 msgctxt "GeneralSettings|"
 msgid "Compact view of downloads list"
-msgstr "Visualizzazione compatta dell'elenco download"
+msgstr "Visualizzazione elenco download compatta"
 
 msgctxt "GeneralSettings|"
 msgid "Enable standalone downloads windows"
@@ -2283,7 +2320,7 @@ msgstr "Abilita finestre separate per ogni download"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove deleted files from download list"
-msgstr "Rimuovi automaticamente dall'elenco dei download i file eliminati"
+msgstr "Rimuovi automaticamente dall'elenco download i file eliminati"
 
 msgctxt "GeneralSettings|"
 msgid "Automatically remove completed downloads from download list"
@@ -2311,11 +2348,11 @@ msgstr "Non scaricare pagine web"
 
 msgctxt "GeneralSettings|"
 msgid "Use server time for file creation"
-msgstr "Per la creazione del file usa l'orario del server"
+msgstr "Imposta data/ora file a quella del server"
 
 msgctxt "GeneralSettings|"
 msgid "Maximum urls count in batch download"
-msgstr "Numero massimo URL nel download multiplo"
+msgstr "Download multipli - numero massimo URL"
 
 msgctxt "GeneralSettings|"
 msgid "Update"
@@ -2356,7 +2393,7 @@ msgstr "Stato"
 
 msgctxt "GeneralTab|"
 msgid "completed"
-msgstr "completati"
+msgstr "completato"
 
 msgctxt "GeneralTab|"
 msgid "State"
@@ -2400,7 +2437,7 @@ msgstr "Velocità upload:"
 
 msgctxt "GeneralTab|"
 msgid "Added at:"
-msgstr "Data/ora di aggiunta:"
+msgstr "Data/ora avvio download:"
 
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
@@ -2452,11 +2489,11 @@ msgstr "File testo (%1)"
 
 msgctxt "ImportDialog|"
 msgid "%1 downloads files (%2)"
-msgstr "%1 file download (%2)"
+msgstr "Elenco download %1 (%2)"
 
 msgctxt "ImportDialog|"
 msgid "%1 settings files (%2)"
-msgstr "%1 file impostazioni (%2)"
+msgstr "Impostazioni %1 (%2)"
 
 msgctxt "ImportExportFailedDialog|"
 msgid "Error: %1"
@@ -2508,7 +2545,7 @@ msgstr "Lingua"
 
 msgctxt "LeftDrawer|"
 msgid "remote control"
-msgstr "Controllo remoto"
+msgstr "controllo remoto"
 
 msgctxt "LeftDrawer|"
 msgid "Browser"
@@ -2600,7 +2637,7 @@ msgstr "Completati"
 
 msgctxt "MainFiltersBar|"
 msgid "Uncompleted"
-msgstr "Non completati"
+msgstr "Non completato"
 
 msgctxt "MainFiltersBar|"
 msgid "OK to remove tag?"
@@ -2624,7 +2661,7 @@ msgstr "Esporta tutti i download"
 
 msgctxt "MainMenu|"
 msgid "Import downloads"
-msgstr "Importa download"
+msgstr "Importa elenco download"
 
 msgctxt "MainMenu|"
 msgid "Export settings"
@@ -2656,19 +2693,19 @@ msgstr "Controlla aggiornamenti..."
 
 msgctxt "MainMenu|"
 msgid "Submit a bug report"
-msgstr "Invia una segnalazione del problema"
+msgstr "Segnala problema"
 
 msgctxt "MainMenu|"
 msgid "Sleep"
-msgstr "Modalità sospensione"
+msgstr "Vai in modalità sospensione"
 
 msgctxt "MainMenu|"
 msgid "Hibernate"
-msgstr "Modalità ibernazione"
+msgstr "Vai in modalità ibernazione"
 
 msgctxt "MainMenu|"
 msgid "Shutdown"
-msgstr "Spegnimento"
+msgstr "Spegni computer"
 
 msgctxt "MainMenu|"
 msgid "Disconnect from remote %1"
@@ -2692,7 +2729,7 @@ msgstr "Info programma"
 
 msgctxt "MainMenu|"
 msgid "Quit"
-msgstr "Chiudi"
+msgstr "Esci"
 
 msgctxt "MainStatusBar|"
 msgid "Snail mode frees bandwidth without stopping downloads."
@@ -2761,7 +2798,7 @@ msgstr ""
 
 msgctxt "MainToolbar|"
 msgid "remote control"
-msgstr "Controllo remoto"
+msgstr "controllo remoto"
 
 msgctxt "MaxURatioComboBox|"
 msgid "Unlimited"
@@ -2793,15 +2830,15 @@ msgstr "Deve essere un numero maggiore di 0."
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
-msgstr ""
+msgstr "Pronto alla riproduzione"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
-msgstr ""
+msgstr "%1 è pronto per la riproduzione"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Play"
-msgstr ""
+msgstr "Riproduci"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Cancel"
@@ -2825,7 +2862,7 @@ msgstr "Dimensione:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Added at:"
-msgstr "Data/ora di aggiunta:"
+msgstr "Data/ora avvio download:"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Skip"
@@ -2837,7 +2874,7 @@ msgstr "Salta tutto (%1)"
 
 msgctxt "MergeDownloadsDialog|"
 msgid "Download"
-msgstr "Scarica"
+msgstr "Download"
 
 msgctxt "MobileDataUsageDialog|"
 msgid "Mobile data usage"
@@ -3073,15 +3110,15 @@ msgstr "Proxy"
 
 msgctxt "NetworkSettings|"
 msgid "System proxy"
-msgstr "Proxy sistema"
+msgstr "Usa proxy sistema"
 
 msgctxt "NetworkSettings|"
 msgid "No proxy"
-msgstr "Connessione diretta (nessun proxy)"
+msgstr "Usa connessione diretta (nessun proxy)"
 
 msgctxt "NetworkSettings|"
 msgid "Configure manually:"
-msgstr "Configura manualmente:"
+msgstr "Configura manualmente proxy:"
 
 msgctxt "NetworkSettings|"
 msgid "Address"
@@ -3183,11 +3220,11 @@ msgstr ""
 
 msgctxt "Notification|"
 msgid "Miscellaneous notifications"
-msgstr ""
+msgstr "Notifiche varie"
 
 msgctxt "Notification|"
 msgid "Ready to play"
-msgstr ""
+msgstr "Pronto per la riproduzione"
 
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
@@ -3226,6 +3263,10 @@ msgid "Info"
 msgstr "Informazioni"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr "Dettagli"
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "File"
 
@@ -3235,7 +3276,7 @@ msgstr "Connessioni"
 
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Riproduci il file mentre è ancora in fase di download"
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
@@ -3306,7 +3347,7 @@ msgstr "Installa estensione da file"
 
 msgctxt "PluginsPage|"
 msgid "Learn more about %1 add-ons"
-msgstr "Ulteriori informazioni sulle estensioni di %1"
+msgstr "Maggiori informazioni sulle estensioni di %1"
 
 msgctxt "PluginsPage|"
 msgid "Install"
@@ -3535,7 +3576,7 @@ msgstr "Questo dispositivo non è supportato da %1."
 msgctxt "QObject|"
 msgid "%1 has failed to initialize. Please reinstall."
 msgstr ""
-"Inizializzazione di %1 non riuscita. \n"
+"Inizializzazione di %1 non riuscita.\n"
 "Reinstalla l'applicazione."
 
 msgctxt "QObject|"
@@ -3552,7 +3593,7 @@ msgstr "Esci"
 
 msgctxt "QObject|"
 msgid "Show main window"
-msgstr "Visualizza finestra principale"
+msgstr "Apri Free Download Manager"
 
 msgctxt "QObject|"
 msgid "About %1"
@@ -3560,7 +3601,7 @@ msgstr "Info su %1"
 
 msgctxt "QObject|"
 msgid "Quit"
-msgstr "Chiudi"
+msgstr "Esci da Free Download manager"
 
 msgctxt "QObject|"
 msgid "%1 B"
@@ -4003,6 +4044,14 @@ msgid "Unwanted behavior detected"
 msgstr "Rilevato comportamento indesiderato"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr "Chiave host sconosciuta"
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr "La chiave pubblica dell'host è sconosciuta"
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "URL non supportato"
 
@@ -4028,7 +4077,7 @@ msgstr "Controllo firma fallito."
 
 msgctxt "QObject|"
 msgid "Download with %1"
-msgstr "Scarica con %1"
+msgstr "Download con %1"
 
 msgctxt "QObject|"
 msgid "Download all with %1"
@@ -4036,11 +4085,11 @@ msgstr "Scarica tutto con %1"
 
 msgctxt "QObject|"
 msgid "Download selected with %1"
-msgstr "Scarica selezionati con %1"
+msgstr "Download elementi selezionati con %1"
 
 msgctxt "QObject|"
 msgid "Download video with %1"
-msgstr "Scarica video con %1"
+msgstr "Download video con %1"
 
 msgctxt "QObject|"
 msgid "Video"
@@ -4060,7 +4109,7 @@ msgid ""
 "%1 has failed to restore it from backup.\n"
 "Please close all your web browsers and try again."
 msgstr ""
-"L'elenco dei download è danneggiato.\n"
+"L'elenco download è danneggiato.\n"
 "%1 non è riuscito a ripristinarlo dal backup.\n"
 "Chiudi tutti i browser web e riprova."
 
@@ -4114,7 +4163,7 @@ msgstr "METTI IN PAUSA TUTTI"
 
 msgctxt "QObject|"
 msgid "Downloading..."
-msgstr "Scaricamento..."
+msgstr "Download..."
 
 msgctxt "QObject|"
 msgid "DISABLE SNAIL MODE"
@@ -4178,11 +4227,15 @@ msgstr "Impossibile caricare"
 
 msgctxt "QObject|"
 msgid "Playlist"
-msgstr "Elenco di riproduzione"
+msgstr "Elenco riproduzione"
 
 msgctxt "QObject|"
 msgid "Open folder"
 msgstr "Apri cartella"
+
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr "%1 ha restituito uno stato di uscita diverso da zero (%2)"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4307,7 +4360,7 @@ msgstr "Esiste già un file con quel nome."
 
 msgctxt "ReportSentDialog|"
 msgid "Report problem"
-msgstr "Segnala un problema"
+msgstr "Segnala problema"
 
 msgctxt "ReportSentDialog|"
 msgid "Sorry, the report hasn't been sent, an error occurred: %1"
@@ -4317,7 +4370,7 @@ msgstr ""
 msgctxt "ReportSentDialog|"
 msgid "The report has been sent. Thank you for your cooperation!"
 msgstr ""
-"La segnalazione è stata inviata. \n"
+"La segnalazione è stata inviata.\n"
 "Grazie per la collaborazione!"
 
 msgctxt "ReportSentDialog|"
@@ -4330,7 +4383,7 @@ msgstr "<a href='#'>Riavvio richiesto</a>"
 
 msgctxt "SaveTo|"
 msgid "Save to"
-msgstr "Salva in"
+msgstr "Cartella download"
 
 msgctxt "SaveTo|"
 msgid "Open"
@@ -4378,7 +4431,7 @@ msgstr "Ogni giorno"
 
 msgctxt "Scheduler|"
 msgid "To:"
-msgstr "alle:"
+msgstr "Alle:"
 
 msgctxt "SchedulerButton|"
 msgid "Scheduler"
@@ -4526,7 +4579,7 @@ msgstr "Accesso remoto"
 
 msgctxt "SettingsPage|"
 msgid "Advanced"
-msgstr "Avanzate"
+msgstr "Opzioni avanzate"
 
 msgctxt "SettingsPage|"
 msgid "Troubleshooting"
@@ -4620,7 +4673,7 @@ msgstr "Impostazioni suoni"
 
 msgctxt "SoundsSettings|"
 msgid "Use sounds"
-msgstr "Usa suoni"
+msgstr "Imposta file audio notifiche"
 
 msgctxt "SoundsSettings|"
 msgid "Downloads added"
@@ -4643,8 +4696,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "Attenzione: potenziale rischio sicurezza"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr "Non è possibile stabilire l'autenticità dell'host."
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "Certificato SSL non valido."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr "chiave impronte digitali %1"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4657,6 +4718,18 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+"Se ti fidi di questo host, seleziona 'Accetto' per ricordare la chiave e "
+"continuare a connetterti."
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr "Accetto"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -4733,7 +4806,7 @@ msgstr ""
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Submit a bug report"
-msgstr "Invia una segnalazione del problema"
+msgstr "Segnala problema"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Title"
@@ -4753,7 +4826,7 @@ msgstr "Email"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Attach %1 log files (recommended)"
-msgstr "Allega %1 file registro eventi (scelta consigliata)"
+msgstr "Allega file registro eventi %1 (scelta consigliata)"
 
 msgctxt "SubmitBugReportDialog|"
 msgid "Required fields"
@@ -4777,7 +4850,7 @@ msgstr "Invia"
 
 msgctxt "Subtitles|"
 msgid "Download subtitles"
-msgstr "Scarica sottotitoli"
+msgstr "Download sottotitoli"
 
 msgctxt "Subtitles|"
 msgid "Edit list"
@@ -4829,11 +4902,11 @@ msgstr "Alto"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Download speed"
-msgstr "Velocità di download"
+msgstr "Velocità download"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Upload speed"
-msgstr "Velocità di upload"
+msgstr "Velocità upload"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of connections"
@@ -4850,6 +4923,10 @@ msgstr "Numero massimo download contemporanei"
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of additional querying info downloads:"
 msgstr "Numero massimo richieste aggiuntive raccolta informazioni:"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Enable additional downloads to optimize speed"
+msgstr "Abilita download aggiuntivi per ottimizzare la velocità"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
@@ -4973,7 +5050,7 @@ msgstr "Nuovo file"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Download"
-msgstr "Scarica"
+msgstr "Download"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Save to"
@@ -4985,7 +5062,7 @@ msgstr "Nome file"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Riproduci il file mentre è ancora in fase di download"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
@@ -4993,7 +5070,7 @@ msgstr "Nessun accesso in scrittura alla destinazione selezionata"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Size: %1 (Disk space: %2)"
-msgstr "Dimensione: %1 (spazio disponibile: %2)"
+msgstr "Dimensione file: %1 (spazio disponibile disco: %2)"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Disk space: %1"

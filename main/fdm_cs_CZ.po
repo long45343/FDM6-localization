@@ -145,8 +145,17 @@ msgid "Interface"
 msgstr "Rozhraní"
 
 msgctxt "AdvancedSettings|"
+msgid ""
+"Click on the Close button to hide %1 and keep it running in the background"
+msgstr "Pro skrytí %1 a jeho běh na pozadí klepněte na tlačítko Zavřít"
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Zobrazit/Skrýt spodní panel klepnutím na stahovanou položku"
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr "Skrýt ikonu Docku"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -603,6 +612,10 @@ msgid "General"
 msgstr "Obecné"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr "Detaily"
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Průběh"
 
@@ -734,6 +747,10 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "Použít prohlížeč při zrušení stahování pomocí %1"
 
+msgctxt "BrowserIntegrationSettings|"
+msgid "Don't intercept if INSERT key is pressed"
+msgstr "Nezachytávat při stisknutí klávesy INSERT"
+
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -749,7 +766,7 @@ msgstr ""
 "\n"
 "To Vám pomůže přidat stahování do %1.\n"
 "\n"
-"Některá ze stahování (např. sthování z Google Drive) mohou být přidána jen "
+"Některá ze stahování (např. stahování z Google Drive) mohou být přidána jen "
 "pomocí tohoto prohlížeče, protože vyžadují dodatečné informace, které "
 "systémový prohlížeč Androidu do programu %1 neposílá (nebo neexistuje žádná "
 "univerzální cesta pro všechny prohlížeče)."
@@ -761,6 +778,22 @@ msgstr "Pokračovat"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(prohlížeč není nainstalován)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr "Nedostupné"
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr "(připojeno: %1)"
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "Stav"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "Aktualizování…"
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -1766,6 +1799,10 @@ msgstr "Sekvenční stahování"
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Odebrat ze seznamu"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Restart"
+msgstr "Restartovat"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -3206,6 +3243,10 @@ msgid "Info"
 msgstr "Informace"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr "Detaily"
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "Soubory"
 
@@ -3974,6 +4015,14 @@ msgid "Unwanted behavior detected"
 msgstr "Bylo detekováno nechtěné chování"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr "Neznámý klíč hostitele"
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr "Veřejný klíč hostitele je neznámý"
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "Nepodporovaná URL"
 
@@ -4152,6 +4201,10 @@ msgstr "Playlist"
 msgctxt "QObject|"
 msgid "Open folder"
 msgstr "Otevřít složku"
+
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr "%1 vrátil nenulový stav ukončení (%2)"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4606,8 +4659,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "Varování: Možné potenciální riziko"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr "Pravost hostitele nelze zjistit."
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL certifikát není platný."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr "%1 otisků klíčů"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4620,6 +4681,18 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+"Pokud věříte tomuto hostiteli, zvolte Přijmout pro zapamatování klíče a "
+"pokračování v připojení."
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr "Přijmout"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -4808,6 +4881,10 @@ msgstr "Maximální počet současných stahování"
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of additional querying info downloads:"
 msgstr "Maximální počet dalších informací o dotazování stahování:"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Enable additional downloads to optimize speed"
+msgstr "Povolit dodatečná stahování pro optimalizaci rychlosti"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"

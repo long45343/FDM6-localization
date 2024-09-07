@@ -145,8 +145,19 @@ msgid "Interface"
 msgstr "Интерфейс"
 
 msgctxt "AdvancedSettings|"
+msgid ""
+"Click on the Close button to hide %1 and keep it running in the background"
+msgstr ""
+"Щракнете върху бутона Затвори, за да скриете %1 и да го оставите да работи "
+"във фонов режим"
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Показване/скриване на долен панел при натискане върху изтегляния файл"
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -603,6 +614,10 @@ msgid "General"
 msgstr "Общи"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr ""
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Напредък"
 
@@ -734,6 +749,10 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "Използване на браузъра при отмяна на изтеглянето с %1"
 
+msgctxt "BrowserIntegrationSettings|"
+msgid "Don't intercept if INSERT key is pressed"
+msgstr "Без прихващане ако е натиснат клавиш INSERT"
+
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -760,6 +779,22 @@ msgstr "Продължаване"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(браузърът не е инсталиран)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "Актуализиране..."
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -1686,7 +1721,7 @@ msgstr "Премахни от списъка"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Възпроизвеждане на файла докато той все още се изтегля"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -1763,6 +1798,10 @@ msgstr "Последователно изтегляне"
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Премахни от списъка"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Restart"
+msgstr "Рестарт"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -2773,15 +2812,15 @@ msgstr "Трябва да е число по-голямо от 0."
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
-msgstr ""
+msgstr "Готов за възпроизвеждане"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
-msgstr ""
+msgstr "%1 е готов за възпроизвеждане"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Play"
-msgstr ""
+msgstr "Възпроизвеждане"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Cancel"
@@ -3163,11 +3202,11 @@ msgstr ""
 
 msgctxt "Notification|"
 msgid "Miscellaneous notifications"
-msgstr ""
+msgstr "Различни известия"
 
 msgctxt "Notification|"
 msgid "Ready to play"
-msgstr ""
+msgstr "Готов за възпроизвеждане"
 
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
@@ -3206,6 +3245,10 @@ msgid "Info"
 msgstr "Информация"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr ""
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "Файлове"
 
@@ -3215,7 +3258,7 @@ msgstr "Връзки"
 
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Възпроизвеждане на файла докато той все още се изтегля"
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
@@ -3976,6 +4019,14 @@ msgid "Unwanted behavior detected"
 msgstr "Открито е нежелано поведение"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "Неподдържан URL"
 
@@ -4156,6 +4207,10 @@ msgstr "Лист за изпълнение"
 msgctxt "QObject|"
 msgid "Open folder"
 msgstr "Отваряне на папка"
+
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr ""
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4611,8 +4666,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "Внимание: Потенциален риск за сигурността"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr ""
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL Сертификата е невалиден."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4625,6 +4688,16 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -4815,6 +4888,10 @@ msgid "Maximum number of additional querying info downloads:"
 msgstr "Максимален брой на изтегляния на допълнителни запитвания:"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Enable additional downloads to optimize speed"
+msgstr "Активиране на допълнителни изтегляния за оптимизиране на скоростта"
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "Невалидни настройки за лимит на  трафика"
 
@@ -4948,7 +5025,7 @@ msgstr "Име на фаил"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Възпроизвеждане на файла докато той все още се изтегля"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"

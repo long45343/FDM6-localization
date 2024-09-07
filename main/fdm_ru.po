@@ -147,8 +147,17 @@ msgid "Interface"
 msgstr "Интерфейс"
 
 msgctxt "AdvancedSettings|"
+msgid ""
+"Click on the Close button to hide %1 and keep it running in the background"
+msgstr "Оставлять работать %1 в фоне при нажатии кнопки закрытия окна"
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Открывать/скрывать нижнюю панель по щелчку на загрузку"
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr "Не показывать иконку в доке"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -604,6 +613,10 @@ msgid "General"
 msgstr "Основное"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr "Подробности"
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Прогресс"
 
@@ -735,6 +748,10 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "Загружать в браузере при отмене загрузки в %1"
 
+msgctxt "BrowserIntegrationSettings|"
+msgid "Don't intercept if INSERT key is pressed"
+msgstr "Не перехватывать при нажатой клавише INSERT"
+
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -762,6 +779,22 @@ msgstr "Продолжить"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(браузер не установлен)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr "N/A"
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr "(подсоединено: %1)"
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "Статус"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "Обновление…"
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -1769,6 +1802,10 @@ msgstr "Последовательная загрузка"
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Убрать из списка"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Restart"
+msgstr "Перезапустить"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -3212,6 +3249,10 @@ msgid "Info"
 msgstr "Информация"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr "Подробности"
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "Файлы"
 
@@ -3981,6 +4022,14 @@ msgid "Unwanted behavior detected"
 msgstr "Обнаружено нежелательное поведение"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr "Неизвестный ключ сервера"
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr "Публичный ключ сервера не известен"
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "Неподдерживаемая ссылка"
 
@@ -4159,6 +4208,10 @@ msgstr "Плейлист"
 msgctxt "QObject|"
 msgid "Open folder"
 msgstr "Открыть папку"
+
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr "%1 вернул ненулевой (%2) код завершения"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4614,8 +4667,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "Предупреждение: впереди потенциальная угроза безопасности"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr "Подлинность сервера не может быть установлена."
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL-сертификат недействителен."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr "Отпечатки %1 ключа"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4628,6 +4689,18 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+"Если вы доверяете этому узлу, выберите Принять, чтобы запомнить ключ и "
+"продолжить подключение."
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr "Принять"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -4818,6 +4891,10 @@ msgid "Maximum number of additional querying info downloads:"
 msgstr "Максимум дополнительных запросов информации о закачках:"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Enable additional downloads to optimize speed"
+msgstr "Разрешить запуск дополнительных закачек для оптимизации скорости"
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "Недействительные настройки ограничения трафика"
 
@@ -4927,7 +5004,7 @@ msgstr "Изменить ограничения трафика"
 
 msgctxt "TumSettingTextField|"
 msgid "Can't be greater than %1"
-msgstr "Требуется значение больше %1"
+msgstr "Требуется значение не больше %1"
 
 msgctxt "TuneAndAddDownloadDialog|"
 msgid "New download"

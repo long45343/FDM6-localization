@@ -145,8 +145,17 @@ msgid "Interface"
 msgstr "인터페이스"
 
 msgctxt "AdvancedSettings|"
+msgid ""
+"Click on the Close button to hide %1 and keep it running in the background"
+msgstr "닫기 버튼을 클릭하여 %1을 숨기고 백그라운드에서 계속 실행합니다"
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "다운로드를 클릭하여 하단 패널 열기/숨기기"
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr "도크 아이콘 숨기기"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -599,6 +608,10 @@ msgid "General"
 msgstr "일반"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr "세부 정보"
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "진행 상황"
 
@@ -728,6 +741,10 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "%1를 통한 다운로드를 취소하는 경우 브라우저 사용"
 
+msgctxt "BrowserIntegrationSettings|"
+msgid "Don't intercept if INSERT key is pressed"
+msgstr "INSERT 키를 누른 경우 가로채지 않음"
+
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -753,6 +770,22 @@ msgstr "계속"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(브라우저가 설치되지 않았습니다)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr "없음"
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr "(연결됨: %1)"
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "상태"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "업데이트 중..."
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -1668,7 +1701,7 @@ msgstr "목록에서 제거"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "다운로드 중인 파일 재생"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -1745,6 +1778,10 @@ msgstr "순차적 다운로드"
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "목록에서 제거"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Restart"
+msgstr "다시 시작"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -2750,15 +2787,15 @@ msgstr "0보다 큰 숫자여야 합니다."
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
-msgstr ""
+msgstr "재생 준비 완료"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
-msgstr ""
+msgstr "%1을(를) 재생할 준비가 되었습니다"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Play"
-msgstr ""
+msgstr "재생"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Cancel"
@@ -3138,11 +3175,11 @@ msgstr "재개를 지원하지 않는 파일을 다운로드할 때 절전 모�
 
 msgctxt "Notification|"
 msgid "Miscellaneous notifications"
-msgstr ""
+msgstr "기타 알림"
 
 msgctxt "Notification|"
 msgid "Ready to play"
-msgstr ""
+msgstr "재생 준비 완료"
 
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
@@ -3179,6 +3216,10 @@ msgid "Info"
 msgstr "정보"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr "세부 정보"
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "파일"
 
@@ -3188,7 +3229,7 @@ msgstr "연결"
 
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "다운로드 중인 파일 재생"
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
@@ -3982,6 +4023,14 @@ msgid "Unwanted behavior detected"
 msgstr "원하지 않는 동작이 탐지됨"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr "알 수 없는 호스트 키"
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr "호스트의 공개 키를 알 수 없습니다"
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "지원되지 않는 URL"
 
@@ -4124,6 +4173,10 @@ msgstr "재생 목록"
 msgctxt "QObject|"
 msgid "Open folder"
 msgstr "폴더 열기"
+
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr "%1이(가) 0이 아닌(%2) 종료 상태를 반환했습니다"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4578,8 +4631,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "경고: 잠재적인 보안 위험이 있습니다"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr "호스트의 진위를 확인할 수 없습니다."
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "SSL 인증서가 잘못되었습니다."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr "%1 키 지문"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4592,6 +4653,16 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr "이 호스트를 신뢰하는 경우 수락을 선택하여 키를 기억하고 연결을 계속합니다."
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr "수락"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -4782,6 +4853,10 @@ msgid "Maximum number of additional querying info downloads:"
 msgstr "추가 쿼리 정보 다운로드의 최대 횟수:"
 
 msgctxt "TrafficLimitsSettings|"
+msgid "Enable additional downloads to optimize speed"
+msgstr "속도를 최적화하기 위해 추가 다운로드 가능"
+
+msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
 msgstr "잘못된 트래픽 제한 설정"
 
@@ -4915,7 +4990,7 @@ msgstr "파일 이름"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "다운로드 중인 파일 재생"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"

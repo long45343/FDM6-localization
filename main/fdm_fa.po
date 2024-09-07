@@ -145,8 +145,17 @@ msgid "Interface"
 msgstr "رابط"
 
 msgctxt "AdvancedSettings|"
+msgid ""
+"Click on the Close button to hide %1 and keep it running in the background"
+msgstr ""
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "باز و مخفی کردن پنل پایین بوسیله کلیک کردن روی دانلود"
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr ""
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -599,6 +608,10 @@ msgid "General"
 msgstr "عمومی"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr ""
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "پیشرفت"
 
@@ -730,6 +743,10 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "اگر از دانلود فایل بوسیله %1 انصراف دادید از مرورگر استفاده شود"
 
+msgctxt "BrowserIntegrationSettings|"
+msgid "Don't intercept if INSERT key is pressed"
+msgstr ""
+
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -757,6 +774,22 @@ msgstr "ادامه"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(مرورگر نصب نشده است)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr ""
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "وضعیت"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "در حال بروزرسانی..."
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -1753,6 +1786,10 @@ msgstr "دانلود ترتیبی"
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "حذف از لیست"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Restart"
+msgstr "شروع مجدد"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -3187,6 +3224,10 @@ msgid "Info"
 msgstr "اطلاعات"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr ""
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "فایل ها"
 
@@ -3953,6 +3994,14 @@ msgid "Unwanted behavior detected"
 msgstr ""
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr ""
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr ""
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "URL پشتیبانی نمی شود"
 
@@ -4132,6 +4181,10 @@ msgstr "لیست پخش"
 
 msgctxt "QObject|"
 msgid "Open folder"
+msgstr ""
+
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
 msgstr ""
 
 msgctxt "QuaGzipFile|"
@@ -4587,8 +4640,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "هشدار: خطر بالقوه امنیتی پیش رو"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr ""
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "گواهی SSL معتبر نیست."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4601,6 +4662,16 @@ msgstr "‏SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "‏SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr ""
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -4788,6 +4859,10 @@ msgstr "حداکثر تعداد دانلودهای همزمان"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of additional querying info downloads:"
+msgstr ""
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Enable additional downloads to optimize speed"
 msgstr ""
 
 msgctxt "TrafficLimitsSettings|"

@@ -152,8 +152,17 @@ msgid "Interface"
 msgstr "界面"
 
 msgctxt "AdvancedSettings|"
+msgid ""
+"Click on the Close button to hide %1 and keep it running in the background"
+msgstr "点击关闭按钮以隐藏%1并保持其在后台运行"
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "单击下载项以展开/隐藏底部面板"
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr "隐藏任务栏图标"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -606,6 +615,10 @@ msgid "General"
 msgstr "常规"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr "详情"
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "进度"
 
@@ -735,6 +748,10 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "取消 %1 下载时改用浏览器下载"
 
+msgctxt "BrowserIntegrationSettings|"
+msgid "Don't intercept if INSERT key is pressed"
+msgstr "当INSERT键被按下时不要捕获"
+
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -760,6 +777,22 @@ msgstr "继续"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(浏览器未安装)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr "不适用"
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr "(已连接: %1)"
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "状态"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "正在更新..."
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -1752,6 +1785,10 @@ msgstr "顺序下载"
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "从列表中移除"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Restart"
+msgstr "重启"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -3186,6 +3223,10 @@ msgid "Info"
 msgstr "信息"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr "详情"
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "文件"
 
@@ -3953,6 +3994,14 @@ msgid "Unwanted behavior detected"
 msgstr "发现非预期行为"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr "未知的主机密钥"
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr "主机的公钥未知"
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "不支持的链接"
 
@@ -4131,6 +4180,10 @@ msgstr "播放列表"
 msgctxt "QObject|"
 msgid "Open folder"
 msgstr "打开文件夹"
+
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr "%1返回了非零(%2)退出状态"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4585,8 +4638,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "警告：有潜在安全风险"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr "无法建立到服务器的认证。"
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
-msgstr "SSL 证书不存在."
+msgstr "SSL 证书不存在。"
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr "%1公钥指纹"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4599,6 +4660,16 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr "如果您信任此服务器，选择接受以记忆此公钥并继续"
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr "接受"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -4787,6 +4858,10 @@ msgstr "最大独立下载数"
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of additional querying info downloads:"
 msgstr "最大额外查询信息下载数："
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Enable additional downloads to optimize speed"
+msgstr "启用额外下载以优化速度"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"

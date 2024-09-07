@@ -16,6 +16,26 @@ msgctxt "AddTrackersPage|"
 msgid "Add trackers"
 msgstr "Додати трекери"
 
+msgctxt "BtDetailsTab|"
+msgid "Peers:"
+msgstr "Піри:"
+
+msgctxt "BtDetailsTab|"
+msgid "Seeds:"
+msgstr "Сіди:"
+
+msgctxt "BtDetailsTab|"
+msgid "Availability:"
+msgstr "Доступно:"
+
+msgctxt "BtDetailsTab|"
+msgid "Last seen complete:"
+msgstr "Востаннє завершено:"
+
+msgctxt "BtDetailsTab|"
+msgid "Tracker URL"
+msgstr "URL трекера"
+
 msgctxt "DownloadContextMenu|"
 msgid "Disable seeding"
 msgstr "Забронити роздачу"

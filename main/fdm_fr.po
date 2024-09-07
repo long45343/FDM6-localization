@@ -5,7 +5,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Language: fr_FR\n"
-"X-Source-Language: en\n"
+"X-Source-Language: en_US\n"
 "X-Qt-Contexts: true\n"
 
 msgctxt "AboutDialog|"
@@ -147,8 +147,18 @@ msgid "Interface"
 msgstr "Interface"
 
 msgctxt "AdvancedSettings|"
+msgid ""
+"Click on the Close button to hide %1 and keep it running in the background"
+msgstr ""
+"Cliquer sur le bouton Fermer pour cacher %1 et le maintenir en arrière-plan"
+
+msgctxt "AdvancedSettings|"
 msgid "Open/hide the bottom panel by clicking on the download"
 msgstr "Ouvrir/cacher le panneau du bas en cliquant sur le téléchargement"
+
+msgctxt "AdvancedSettings|"
+msgid "Hide the Dock icon"
+msgstr "Cacher l'icône du Dock"
 
 msgctxt "AdvancedSettings|"
 msgid "Indicate active download and upload using tray icon"
@@ -321,11 +331,12 @@ msgstr "Les arguments doivent contenir la variable %path%"
 msgctxt "AntivirusSettings|"
 msgid "Automatically perform virus check when download is finished"
 msgstr ""
-"Lancer automatiquement un scan antivirus quand le téléchargement est terminé"
+"Lancer automatiquement une vérification antivirus quand le téléchargement "
+"est terminé"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "Virus check"
-msgstr "Scan antivirus"
+msgstr "Vérification antivirus"
 
 msgctxt "AntivirusSettingsDialog|"
 msgid "There is no antivirus specified in the settings."
@@ -610,6 +621,10 @@ msgid "General"
 msgstr "Général"
 
 msgctxt "BottomPanelTools|"
+msgid "Details"
+msgstr "Détails"
+
+msgctxt "BottomPanelTools|"
 msgid "Progress"
 msgstr "Progression"
 
@@ -741,6 +756,10 @@ msgctxt "BrowserIntegrationSettings|"
 msgid "Use browser if you cancel download via %1"
 msgstr "Utiliser le navigateur si vous annulez le téléchargement via %1"
 
+msgctxt "BrowserIntegrationSettings|"
+msgid "Don't intercept if INSERT key is pressed"
+msgstr "Ne pas intercepter si la touche INSÉR est pressée"
+
 msgctxt "BrowserIntroDialog|"
 msgid ""
 "You're about to open a built-in web browser.\n"
@@ -769,6 +788,22 @@ msgstr "Continuer"
 msgctxt "BrowserListElement|"
 msgid "(browser is not installed)"
 msgstr "(le navigateur n’est pas installé)"
+
+msgctxt "BtDetailsTab|"
+msgid "N/A"
+msgstr "N/A"
+
+msgctxt "BtDetailsTab|"
+msgid "(connected: %1)"
+msgstr "(connecté: %1)"
+
+msgctxt "BtDetailsTab|"
+msgid "Status"
+msgstr "Statut"
+
+msgctxt "BtDetailsTab|"
+msgid "Updating..."
+msgstr "Mise à jour..."
 
 msgctxt "BtSettings|"
 msgid "General"
@@ -999,7 +1034,7 @@ msgstr "Annuler"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Connect to remote %1"
-msgstr "Connecter au distant %1"
+msgstr "Connecter au  %1 distant"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "(beta)"
@@ -1016,7 +1051,7 @@ msgstr "Connecter automatiquement au démarrage"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid "Please enter %1, or <a href='#'>scan QR code</a>"
-msgstr "Veuillez entrer %1, ou <a href='#'>scanner le QR code</a>"
+msgstr "Veuillez entrer %1, ou <a href='#'>analyser le QR code</a>"
 
 msgctxt "ConnectToRemoteAppDialog|"
 msgid ""
@@ -1470,7 +1505,7 @@ msgstr "Déplacement"
 
 msgctxt "DownloadsItemTools|"
 msgid "Checking for viruses"
-msgstr "Scan antivirus en cours"
+msgstr "Vérification antivirus en cours"
 
 msgctxt "DownloadsItemTools|"
 msgid "Converting to mp3"
@@ -1711,7 +1746,7 @@ msgstr "Enlever de la liste"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Lire le fichier pendant qu'il est encore en téléchargement"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Add mirror"
@@ -1759,7 +1794,7 @@ msgstr "Convertir en mp4"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Perform virus check"
-msgstr "Réaliser un scan antivirus"
+msgstr "Réaliser une vérification antivirus"
 
 msgctxt "DownloadsViewItemContextMenu|"
 msgid "Abort"
@@ -1788,6 +1823,10 @@ msgstr "Téléchargement séquentiel"
 msgctxt "DownloadsViewItemContextMenu2|"
 msgid "Remove from list"
 msgstr "Enlever de la liste"
+
+msgctxt "DownloadsViewItemContextMenu2|"
+msgid "Restart"
+msgstr "Relancer"
 
 msgctxt "DownloadsViewItemFileInfo|"
 msgid "Download complete"
@@ -2174,7 +2213,7 @@ msgstr "Tout sélectionner"
 
 msgctxt "FilesTree|"
 msgid "Select none"
-msgstr "Ne rien électionner"
+msgstr "Ne rien sélectionner"
 
 msgctxt "FilesTreeContextMenu|"
 msgid "High priority"
@@ -2411,7 +2450,7 @@ msgstr "Vitesse d'envoi :"
 
 msgctxt "GeneralTab|"
 msgid "Added at:"
-msgstr "Ajouté à:"
+msgstr "Ajouté le:"
 
 msgctxt "GeneralTab|"
 msgid "%1 of %2"
@@ -2803,15 +2842,15 @@ msgstr "Doit être un nombre supérieur à 0."
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Ready to play"
-msgstr ""
+msgstr "Prêt à lire"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "%1 is ready to play"
-msgstr ""
+msgstr "%1 est prêt à lire"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Play"
-msgstr ""
+msgstr "Lire"
 
 msgctxt "MediaFileReadyToPlayDialog|"
 msgid "Cancel"
@@ -3193,11 +3232,11 @@ msgstr ""
 
 msgctxt "Notification|"
 msgid "Miscellaneous notifications"
-msgstr ""
+msgstr "Notifications diverses"
 
 msgctxt "Notification|"
 msgid "Ready to play"
-msgstr ""
+msgstr "Prêt à lire"
 
 msgctxt "OsPermissionsDialog|"
 msgid "%1 is missing permissions"
@@ -3236,6 +3275,10 @@ msgid "Info"
 msgstr "Infos"
 
 msgctxt "Page|"
+msgid "Details"
+msgstr "Détails"
+
+msgctxt "Page|"
 msgid "Files"
 msgstr "Fichiers"
 
@@ -3245,7 +3288,7 @@ msgstr "Connexions"
 
 msgctxt "PlayAsap|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Lire le fichier pendant qu'il est encore en téléchargement"
 
 msgctxt "PluginBannerDialog|"
 msgid "Enjoy using %1 add-on?"
@@ -3571,23 +3614,23 @@ msgstr "Quitter"
 
 msgctxt "QObject|"
 msgid "%1 B"
-msgstr "%1 O"
+msgstr "%1 o"
 
 msgctxt "QObject|"
 msgid "%1 KB"
-msgstr "%1 KO"
+msgstr "%1 Ko"
 
 msgctxt "QObject|"
 msgid "%1 MB"
-msgstr "%1 MO"
+msgstr "%1 Mo"
 
 msgctxt "QObject|"
 msgid "%1 GB"
-msgstr "%1 GO"
+msgstr "%1 Go"
 
 msgctxt "QObject|"
 msgid "%1 TB"
-msgstr "%1 TO"
+msgstr "%1 To"
 
 msgctxt "QObject|"
 msgid "%1 K"
@@ -3607,23 +3650,23 @@ msgstr "%1 T"
 
 msgctxt "QObject|"
 msgid "%1 B/s"
-msgstr "%1 O/s"
+msgstr "%1 o/s"
 
 msgctxt "QObject|"
 msgid "%1 KB/s"
-msgstr "%1 KO/s"
+msgstr "%1 Ko/s"
 
 msgctxt "QObject|"
 msgid "%1 MB/s"
-msgstr "%1 MO/s"
+msgstr "%1 Mo/s"
 
 msgctxt "QObject|"
 msgid "%1 GB/s"
-msgstr "%1 GO/s"
+msgstr "%1 Go/s"
 
 msgctxt "QObject|"
 msgid "%1 TB/s"
-msgstr "%1 TO/s"
+msgstr "%1 To/s"
 
 msgctxt "QObject|"
 msgid "%1 K/s"
@@ -4010,6 +4053,14 @@ msgid "Unwanted behavior detected"
 msgstr "Comportement indésirable détecté"
 
 msgctxt "QObject|"
+msgid "Unknown host key"
+msgstr "Clé de l'hôte inconnue"
+
+msgctxt "QObject|"
+msgid "Public key of the host is unknown"
+msgstr "La clé publique de l'hôte est inconnue"
+
+msgctxt "QObject|"
 msgid "Unsupported URL"
 msgstr "URL non supportée"
 
@@ -4190,6 +4241,10 @@ msgstr "Liste de lecture"
 msgctxt "QObject|"
 msgid "Open folder"
 msgstr "Ouvrir le dossier"
+
+msgctxt "QtFfmpegAvMerger|"
+msgid "%1 returned non-zero (%2) exit status"
+msgstr "%1 a retourné un état de sortie (%2) non-zéro"
 
 msgctxt "QuaGzipFile|"
 msgid "QIODevice::Append is not supported for GZIP"
@@ -4647,8 +4702,16 @@ msgid "Warning: potential security risk ahead"
 msgstr "Attention: risque potentiel de sécurité à venir"
 
 msgctxt "SslDialog|"
+msgid "The authenticity of the host can't be established."
+msgstr "L'authenticité de l'hôte ne peut pas être établie."
+
+msgctxt "SslDialog|"
 msgid "SSL Certificate is not valid."
 msgstr "Le certificat SSL est invalide."
+
+msgctxt "SslDialog|"
+msgid "%1 key fingerprints"
+msgstr "%1 empreintes digitales clés"
 
 msgctxt "SslDialog|"
 msgid "Certificate fingerprints"
@@ -4661,6 +4724,18 @@ msgstr "SHA-256:"
 msgctxt "SslDialog|"
 msgid "SHA1:"
 msgstr "SHA1:"
+
+msgctxt "SslDialog|"
+msgid ""
+"If you trust this host, select Accept to remember the key and carry on "
+"connecting."
+msgstr ""
+"Si vous vous fiez à cet hôte, sélectionnez Accepter pour mémoriser la clé et "
+"continuer la connexion."
+
+msgctxt "SslDialog|"
+msgid "Accept"
+msgstr "Accepter"
 
 msgctxt "SslDialog|"
 msgid "Accept the risk and download"
@@ -4812,7 +4887,7 @@ msgstr "Sombre"
 
 msgctxt "Toast|"
 msgid "Please grant camera permission to use the QR scanner"
-msgstr "Veuillez donner l'autorisation caméra pour utiliser le scanner QR"
+msgstr "Veuillez donner l'autorisation caméra pour utiliser l'analyseur QR"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Traffic Limits"
@@ -4853,6 +4928,10 @@ msgstr "Nombre maximum de téléchargements simultanés"
 msgctxt "TrafficLimitsSettings|"
 msgid "Maximum number of additional querying info downloads:"
 msgstr "Nombre maximum de demandes d'infos en plus de téléchargements:"
+
+msgctxt "TrafficLimitsSettings|"
+msgid "Enable additional downloads to optimize speed"
+msgstr "Activer des téléchargements additionnels pour optimiser la vitesse"
 
 msgctxt "TrafficLimitsSettings|"
 msgid "Invalid traffic limits settings"
@@ -4988,7 +5067,7 @@ msgstr "Nom de fichier"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "Play file while it is still downloading"
-msgstr ""
+msgstr "Lire le fichier pendant qu'il est encore en téléchargement"
 
 msgctxt "TuneAndAddDownloadPage|"
 msgid "No write access to the selected directory"
